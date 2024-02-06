@@ -26,7 +26,7 @@ public class SectionAcceptanceTestHelper {
         params.put("distance", "10");
         return params;
     }
-
+//test주석
     static ExtractableResponse<Response> 구간_제거_요청(String stationId, Long lineId) {
         return RestAssured.given().log().all()
                           .param("stationId", stationId)
